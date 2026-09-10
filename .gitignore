@@ -1,0 +1,24 @@
+/tmp
+
+# dependencies
+node_modules/
+
+# build output
+dist/
+coverage/
+
+# local tooling
+.wrangler/
+.turbo/
+
+# environment files
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+!.env.example
+!.dev.vars.example
+
+# logs and system files
+*.log
+.DS_Store
