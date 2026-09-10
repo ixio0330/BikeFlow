@@ -1,0 +1,11 @@
+.git
+.github
+.wrangler
+**/coverage
+**/dist
+**/node_modules
+*.log
+.env*
+.dev.vars*
+docs
+tmp
