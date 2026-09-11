@@ -1,6 +1,6 @@
+import { AppController } from '@/app.controller.js'
 import { Test } from '@nestjs/testing'
 import { describe, expect, it } from 'vitest'
-import { AppController } from './app.controller.js'
 
 describe('AppController', () => {
   it('returns the service health', async () => {
