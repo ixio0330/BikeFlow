@@ -11,10 +11,16 @@
     "format:check": "prettier --check .",
     "lint": "oxlint apps packages",
     "test": "pnpm --recursive --if-present test",
-    "typecheck": "pnpm --recursive --if-present typecheck"
+    "typecheck": "pnpm --recursive --if-present typecheck",
+    "prepare": "husky"
   },
   "devDependencies": {
+    "husky": "9.1.7",
+    "lint-staged": "17.5.0",
     "oxlint": "1.82.0",
     "prettier": "3.4.2"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
   }
 }
